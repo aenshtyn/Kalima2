@@ -1,1 +1,49 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&family=Josefin+Sans&family=Nunito:ital@1&family=Ubuntu:wght@300;500&display=swap');
+
+
+html, body, h2, p {
+    font-family: 'Baloo Tammudu 2', sans-serif;
+    font-size: large;
+    text-align: center;
+}
+h1{
+    font-family: 'Baloo Tammudu 2', sans-serif;
+
+}
+a {
+    color: green;
+}
+.column {
+float: left;
+width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+
+.card {
+    border-radius: 1rem ;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold ;
+}
+.spacer {
+    height: 130px;
+}
+.navbar-brand
+{
+  font-size: xx-large;
+  align-items: center;
+}
+
+.nav-item {
+    font-size: x-large;
+}

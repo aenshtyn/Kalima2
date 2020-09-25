@@ -1,0 +1,20 @@
+.products {
+    background-image: src("assets/img/cow1.jpg");
+}
+
+.card {
+    width: 18rem;
+    border-radius: 5rem;
+    border-spacing: 5px;
+    padding: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  column-gap: 40px;
+
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  h5 {
+      color: green;
+  }

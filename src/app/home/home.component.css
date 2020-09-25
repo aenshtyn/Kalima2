@@ -1,0 +1,39 @@
+div.image {
+    /* content:url("https://www.pakistangulfeconomist.com/wp-content/uploads/2017/12/Developing-livestock-in-Balochistan.jpg"); */
+
+content: url("https://www.ilri.org/sites/default/files/news/cattlegrazingatkapiti.jpg");
+
+}
+
+.spacerland {
+    height: 50px;
+}
+.hero-image {
+    background-image: url("https://www.ilri.org/sites/default/files/news/cattlegrazingatkapiti.jpg");
+    background-color: #cccccc;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+
+  .text {
+    /* text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; */
+    color: white;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+  
