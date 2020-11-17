@@ -14,7 +14,18 @@
 }
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-color: green;
   }
+  
   h5 {
       color: green;
+  }
+
+
+  img {
+    display: block;
+    max-width:500px;
+    max-height:250px;
+    width: auto;
+    height: auto;
   }
